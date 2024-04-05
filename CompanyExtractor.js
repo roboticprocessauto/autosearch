@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Company Info Extractor
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Extract company info and search on Google
 // @author       You
 // @match        https://office.ratrading.eu/sage/index.cfm?page_id=830&company_id=*
@@ -14,7 +14,7 @@
 // @match        https://office.atlastradingworld.com/sage/index.cfm?page_id=830&company_id=*
 // @grant        none
 // ==/UserScript==
-
+//Обновление работает !! УРААААА
 (function() {
     'use strict';
 
