@@ -53,7 +53,7 @@
     }
 
     function updateCompanyStatus() {
-        let select_element = document.getElementById("company_staus_id");
+        let select_element = document.getElementById("company_status_id");
         if (select_element) {
             let event = new Event('change', { bubbles: true });
             select_element.value = "197";
@@ -67,7 +67,7 @@
     }
 
     function setNotInSuppliesBusiness() {
-        let select_element = document.getElementById("company_staus_id");
+        let select_element = document.getElementById("company_status_id");
         if (select_element) {
             let event = new Event('change', { bubbles: true });
             select_element.value = "254";
